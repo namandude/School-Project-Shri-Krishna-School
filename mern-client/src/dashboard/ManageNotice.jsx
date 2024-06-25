@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const ManageNotice = () => {
   const [allNotices, setAllNotice] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:3000/all-notice").then(res => res.json()).then(data => setAllNotice(data));
+    fetch("https://school-project-shri-krishna-school.onrender.com/all-notice").then(res => res.json()).then(data => setAllNotice(data));
 
   }, [])
 
@@ -13,7 +13,7 @@ const ManageNotice = () => {
 
   const handleDelete=(id)=>{
     console.log(id)
-    fetch(`http://localhost:3000/notice/${id}`,{
+    fetch(`https://school-project-shri-krishna-school.onrender.com/notice/${id}`,{
       method:"DELETE",
     }).then(res => res.json())
     .then(data => {

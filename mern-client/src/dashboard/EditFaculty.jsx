@@ -67,7 +67,7 @@ const handleChangeSelectedValue = (event) => {
 
 
     //send data to db
-    fetch(`http://localhost:3000/faculty/${id}`, {
+    fetch(`https://school-project-shri-krishna-school.onrender.com/faculty/${id}`, {
       method: "PATCH",
       headers: {
         "Content-type": "application/json",

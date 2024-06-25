@@ -25,7 +25,7 @@
 
        
 // //send data to db
-// fetch(`http://localhost:3000/news/${id}`, {
+// fetch(`http://school-project-shri-krishna-school.onrender.com/news/${id}`, {
 //   method: "PATCH",
 //   headers: {
 //     "Content-type": "application/json",
@@ -111,7 +111,7 @@
 
 //   useEffect(() => {
 //     // Fetch news details when component mounts
-//     fetch(`http://localhost:3000/news/${id}`)
+//     fetch(`http://school-project-shri-krishna-school.onrender.com/news/${id}`)
 //       .then(res => res.json())
 //       .then(data => {
 //         // Set news state with fetched data
@@ -181,7 +181,7 @@
 
 //   useEffect(() => {
 //     // Fetch news details when component mounts
-//     fetch(`http://localhost:3000/news/${id}`)
+//     fetch(`http://school-project-shri-krishna-school.onrender.com/news/${id}`)
 //       .then(res => res.json())
 //       .then(data => {
 //         // Set news state with fetched data
@@ -260,7 +260,7 @@
 
 //   useEffect(() => {
 //     // Fetch news details when component mounts
-//     fetch(`http://localhost:3000/news/${id}`)
+//     fetch(`http://school-project-shri-krishna-school.onrender.com/news/${id}`)
 //       .then(res => res.json())
 //       .then(data => {
 //         // Set news state with fetched data
@@ -283,7 +283,7 @@
   // Handle form submission
   // const handleNewsSubmit = (event) => {
   //   event.preventDefault();
-  //   fetch(`http://localhost:3000/news/${id}`, {
+  //   fetch(`http://school-project-shri-krishna-school.onrender.com/news/${id}`, {
   //     method: "PATCH",
   //     headers: {
   //       "Content-Type": "application/json",
@@ -308,7 +308,7 @@
 //   // Handle form submission
 // const handleNewsSubmit = (event) => {
 //   event.preventDefault();
-//   fetch(`http://localhost:3000/news/${id}`, {
+//   fetch(`http://school-project-shri-krishna-school.onrender.com/news/${id}`, {
 //     method: "PATCH",
 //     headers: {
 //       "Content-Type": "application/json",
@@ -391,7 +391,7 @@ const EditNews = () => {
 
   useEffect(() => {
     // Fetch news details when component mounts
-    fetch(`http://localhost:3000/news/${id}`)
+    fetch(`https://school-project-shri-krishna-school.onrender.com/news/${id}`)
       .then(res => res.json())
       .then(data => {
         // Set news state with fetched data
@@ -414,7 +414,7 @@ const EditNews = () => {
   // Handle form submission
   const handleNewsSubmit = (event) => {
     event.preventDefault();
-    fetch(`http://localhost:3000/news/${id}`, {
+    fetch(`https://school-project-shri-krishna-school.onrender.com/news/${id}`, {
       method: "PATCH",
       headers: {
         "Content-Type": "application/json",

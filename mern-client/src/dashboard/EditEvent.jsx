@@ -25,7 +25,7 @@
 
        
 // //send data to db
-// fetch(`http://localhost:3000/event/${id}`, {
+// fetch(`http://school-project-shri-krishna-school.onrender.com/event/${id}`, {
 //   method: "PATCH",
 //   headers: {
 //     "Content-type": "application/json",
@@ -111,7 +111,7 @@
 
 //   useEffect(() => {
 //     // Fetch event details when component mounts
-//     fetch(`http://localhost:3000/event/${id}`)
+//     fetch(`http://school-project-shri-krishna-school.onrender.com/event/${id}`)
 //       .then(res => res.json())
 //       .then(data => {
 //         // Set event state with fetched data
@@ -195,7 +195,7 @@
 
        
 // //send data to db
-// fetch(`http://localhost:3000/event/${id}`, {
+// fetch(`http://school-project-shri-krishna-school.onrender.com/event/${id}`, {
 //   method: "PATCH",
 //   headers: {
 //     "Content-type": "application/json",
@@ -281,7 +281,7 @@ const EditEvent = () => {
 
   useEffect(() => {
     // Fetch event details when component mounts
-    fetch(`http://localhost:3000/event/${id}`)
+    fetch(`https://school-project-shri-krishna-school.onrender.com/event/${id}`)
       .then(res => res.json())
       .then(data => {
         // Set eventObj state with fetched data
@@ -304,7 +304,7 @@ const EditEvent = () => {
   // Handle form submission
   const handleEventSubmit = (event) => {
     event.preventDefault();
-    fetch(`http://localhost:3000/event/${id}`, {
+    fetch(`http://school-project-shri-krishna-school.onrender.com/event/${id}`, {
       method: "PATCH",
       headers: {
         "Content-type": "application/json",

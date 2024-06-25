@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const ManageEvent = () => {
   const [allEvents, setAllEvent] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:3000/all-event").then(res => res.json()).then(data => setAllEvent(data));
+    fetch("https://school-project-shri-krishna-school.onrender.com/all-event").then(res => res.json()).then(data => setAllEvent(data));
 
   }, [])
 
@@ -13,7 +13,7 @@ const ManageEvent = () => {
 
   const handleDelete=(id)=>{
     console.log(id)
-    fetch(`http://localhost:3000/event/${id}`,{
+    fetch(`https://school-project-shri-krishna-school.onrender.com/event/${id}`,{
       method:"DELETE",
     }).then(res => res.json())
     .then(data => {

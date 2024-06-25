@@ -3,10 +3,18 @@ const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb');
 const cors = require('cors');
 require('dotenv').config()
 const app = express();
-const port = process.env.PORT;
+const port = process.env.PORT || 4000;
 
 // Middleware
-app.use(cors());
+// app.use(cors({
+//   origin :"https://school-project-shri-krishna-school.onrender.com",
+//   methods :["GET","POST","PATCH","DELETE"], 
+// }));
+app.use((req, res, next) => {
+  res.header('Access-Control-Allow-Origin', '*'); // Replace * with http://localhost:5173 to restrict to that origin
+  res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
+  next();
+});
 app.use(express.json());
 
 // MongoDB configuration -> MongoDB connected

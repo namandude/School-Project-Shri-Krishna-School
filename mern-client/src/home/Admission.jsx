@@ -5,7 +5,7 @@
 //   const [books, setBooks] = useState([]);
 
 //   useEffect(() => {
-//     fetch("http://localhost:3000/all-books")
+//     fetch("http://school-project-shri-krishna-school.onrender.com/all-books")
 //       .then(res => res.json())
 //       .then(data => {
 //         console.log(data);  // Log the fetched data

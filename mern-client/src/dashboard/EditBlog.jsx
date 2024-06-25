@@ -39,7 +39,7 @@
 
 
 // //     //send data to db
-// //     fetch(`http://localhost:3000/blog/${id}`, {
+// //     fetch(`http://school-project-shri-krishna-school.onrender.com/blog/${id}`, {
 // //       method: "PATCH",
 // //       headers: {
 // //         "Content-type": "application/json",
@@ -144,7 +144,7 @@
 
 
 //     //send data to db
-//     fetch(`http://localhost:3000/blog/${id}`, {
+//     fetch(`http://school-project-shri-krishna-school.onrender.com/blog/${id}`, {
 //       method: "PATCH",
 //       headers: {
 //         "Content-type": "application/json",
@@ -260,7 +260,7 @@ const EditBlog = () => {
     console.log(BlogObj);
 
     //send data to db
-    fetch(`http://localhost:3000/blog/${id}`, {
+    fetch(`https://school-project-shri-krishna-school.onrender.com/blog/${id}`, {
       method: "PATCH",
       headers: {
         "Content-type": "application/json",

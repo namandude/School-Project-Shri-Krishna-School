@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const ManageNews = () => {
   const [allNews, setAllNews] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:3000/all-news").then(res => res.json()).then(data => setAllNews(data));
+    fetch("https://school-project-shri-krishna-school.onrender.com/all-news").then(res => res.json()).then(data => setAllNews(data));
 
   }, [])
 
@@ -13,7 +13,7 @@ const ManageNews = () => {
 
   const handleDelete=(id)=>{
     console.log(id)
-    fetch(`http://localhost:3000/news/${id}`,{
+    fetch(`https://school-project-shri-krishna-school.onrender.com/news/${id}`,{
       method:"DELETE",
     }).then(res => res.json())
     .then(data => {

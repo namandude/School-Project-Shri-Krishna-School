@@ -21,7 +21,7 @@ const UploadNews = () => {
         console.log(NewsObj)
 
         //send data to db
-        fetch("http://localhost:3000/upload-news", {
+        fetch("https://school-project-shri-krishna-school.onrender.com/upload-news", {
           method: "POST",
           headers: {
             "Content-type": "application/json",

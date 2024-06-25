@@ -5,7 +5,7 @@
 // const ManageBlog = () => {
 //   const [allblog, setAllblog] = useState([]);
 //   useEffect(() => {
-//     fetch("http://localhost:3000/all-blog").then(res => res.json()).then(data => setAllblog(data));
+//     fetch("http://school-project-shri-krishna-school.onrender.com/all-blog").then(res => res.json()).then(data => setAllblog(data));
 
 //   }, [])
 
@@ -13,7 +13,7 @@
 
 //   const handleDelete=(id)=>{
 //     console.log(id)
-//     fetch(`http://localhost:3000/blog/${id}`,{
+//     fetch(`http://school-project-shri-krishna-school.onrender.com/blog/${id}`,{
 //       method:"DELETE",
 //     }).then(res => res.json())
 //     .then(data => {
@@ -87,13 +87,13 @@ const ManageBlog = () => {
   const [allBlogs, setAllBlogs] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3000/all-blog")
+    fetch("https://school-project-shri-krishna-school.onrender.com/all-blog")
       .then(res => res.json())
       .then(data => setAllBlogs(data));
   }, []);
 
   const handleDelete = (id) => {
-    fetch(`http://localhost:3000/blog/${id}`, {
+    fetch(`https://school-project-shri-krishna-school.onrender.com/blog/${id}`, {
       method: "DELETE",
     })
     .then(res => {

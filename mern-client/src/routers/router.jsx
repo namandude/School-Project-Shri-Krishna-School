@@ -56,7 +56,7 @@ const router = createBrowserRouter([
       {
         path: "/blog/:id",
         element: <SingleBlog />,
-        loader: ({ params }) => fetch(`http://localhost:3000/blog/${params.id}`)
+        loader: ({ params }) => fetch(`https://school-project-shri-krishna-school.onrender.com/blog/${params.id}`)
       }
     ]
   },
@@ -111,27 +111,27 @@ const router = createBrowserRouter([
       {
         path: "/admin/dashboard/edit-notices/:id",
         element: <EditNotice />,
-        loader: ({ params }) => fetch(`http://localhost:3000/notice/${params.id}`)
+        loader: ({ params }) => fetch(`https://school-project-shri-krishna-school.onrender.com/notice/${params.id}`)
       },
       {
         path: "/admin/dashboard/edit-blog/:id",
         element: <EditBlog />,
-        loader: ({ params }) => fetch(`http://localhost:3000/blog/${params.id}`)
+        loader: ({ params }) => fetch(`https://school-project-shri-krishna-school.onrender.com/blog/${params.id}`)
       },
       {
         path: "/admin/dashboard/edit-news/:id",
         element: <EditNews />,
-        loader: ({ params }) => fetch(`http://localhost:3000/news/${params.id}`)
+        loader: ({ params }) => fetch(`https://school-project-shri-krishna-school.onrender.com/news/${params.id}`)
       },
       {
         path: "/admin/dashboard/edit-event/:id",
         element: <EditEvent />,
-        loader: ({ params }) => fetch(`http://localhost:3000/event/${params.id}`)
+        loader: ({ params }) => fetch(`https://school-project-shri-krishna-school.onrender.com/event/${params.id}`)
       },
       {
         path: "/admin/dashboard/edit-faculty/:id",
         element: <EditFaculty />,
-        loader: ({ params }) => fetch(`http://localhost:3000/faculty/${params.id}`)
+        loader: ({ params }) => fetch(`https://school-project-shri-krishna-school.onrender.com/faculty/${params.id}`)
       }
     ]
   },

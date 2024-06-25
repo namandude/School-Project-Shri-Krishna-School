@@ -20,7 +20,7 @@ const MyFooter = () => {
       <div className="mt-4 sm:mt-0 flex space-x-6">
         <Footer.Icon href="#" icon={BsFacebook} />
         <Footer.Icon href="#" icon={BsInstagram} />
-        <Footer.Icon href="#" icon={RiAdminFill} />
+        <Footer.Icon href="/admin/dashboard" icon={RiAdminFill} />
       </div>
     </div>
   </div>

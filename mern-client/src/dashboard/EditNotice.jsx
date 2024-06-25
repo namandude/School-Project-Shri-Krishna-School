@@ -25,7 +25,7 @@ const EditNotice = () => {
 
        
 //send data to db
-fetch(`http://localhost:3000/notice/${id}`, {
+fetch(`https://school-project-shri-krishna-school.onrender.com/notice/${id}`, {
   method: "PATCH",
   headers: {
     "Content-type": "application/json",

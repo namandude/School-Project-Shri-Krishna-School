@@ -10,17 +10,17 @@ const AllNotices = () => {
   const [news, setNews] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3000/all-notice")
+    fetch("https://school-project-shri-krishna-school.onrender.com/all-notice")
       .then(res => res.json())
       .then(data => setNotices(data))
       .catch(error => console.error("Error fetching notice data:", error));
 
-    fetch("http://localhost:3000/all-event")
+    fetch("https://school-project-shri-krishna-school.onrender.com/all-event")
       .then(res => res.json())
       .then(data => setEvents(data))
       .catch(error => console.error("Error fetching event data:", error));
       
-    fetch("http://localhost:3000/all-news")
+    fetch("https://school-project-shri-krishna-school.onrender.com/all-news")
       .then(res => res.json())
       .then(data => setNews(data))
       .catch(error => console.error("Error fetching news data:", error));
@@ -39,14 +39,14 @@ const AllNotices = () => {
               <ul className='latest-news-ul'>
                 {news.map(newsItem => (
                   <li key={newsItem._id} className="mb-2">
-                    <Link to={`/news/${newsItem._id}`}>
+                    {/* <Link to={`/news/${newsItem._id}`}> */}
                       <div className="latest-details">
                         <p>{newsItem.NewsDescription} <span><FcApproval /></span></p>
                       </div>
-                    </Link>
+                    {/* </Link> */}
                   </li>
                 ))}
-              </ul>
+              </ul> 
             </div>
           </div>
         </div>
@@ -61,11 +61,11 @@ const AllNotices = () => {
               <ul className='upcoming-event-list'>
                 {events.map(event => (
                   <li key={event._id} className="mb-2">
-                    <Link to={`/event/${event._id}`}>
+                    {/* <Link to={`/event/${event._id}`}> */}
                       <div className="event-details">
                         <p><span>{event.EventDate}</span>: {event.EventTitle} : {event.EventDescription}</p>
                       </div>
-                    </Link>
+                    {/* </Link> */}
                   </li>
                 ))}
               </ul>

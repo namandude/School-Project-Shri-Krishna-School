@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const ManageFaculty = () => {
   const [allFaculty, setAllFaculty] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:3000/all-faculty").then(res => res.json()).then(data => setAllFaculty(data));
+    fetch("https://school-project-shri-krishna-school.onrender.com/all-faculty").then(res => res.json()).then(data => setAllFaculty(data));
 
   }, [])
 
@@ -13,7 +13,7 @@ const ManageFaculty = () => {
 
   const handleDelete=(id)=>{
     console.log(id)
-    fetch(`http://localhost:3000/faculty/${id}`,{
+    fetch(`https://school-project-shri-krishna-school.onrender.com/faculty/${id}`,{
       method:"DELETE",
     }).then(res => res.json())
     .then(data => {

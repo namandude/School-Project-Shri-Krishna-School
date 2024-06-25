@@ -6,7 +6,8 @@ const Ourfaculty = () => {
     const [faculties, setFaculties] = useState([]);
 
     useEffect(() => {
-        fetch("http://localhost:3000/all-faculty")
+       
+        fetch("https://school-project-shri-krishna-school.onrender.com/all-faculty")
             .then(res => res.json())
             .then(data => {
                 console.log(data);  // Log the fetched data

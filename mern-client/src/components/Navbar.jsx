@@ -34,8 +34,8 @@ const Navbar = () => {
         { label: 'Home', path: '/' },
         { label: 'Who we are', path: '/about' },
         { label: 'Our Faculty', path: '/faculty' },
-        { label: 'Fee Structure', path: '/' },
         
+       
         { label: 'Blog', path: '/blog' }
     ];
 

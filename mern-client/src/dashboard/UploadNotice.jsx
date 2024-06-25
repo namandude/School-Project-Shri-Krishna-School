@@ -21,7 +21,7 @@ const UploadNotice = () => {
         console.log(noticeObj)
 
         //send data to db
-        fetch("http://localhost:3000/upload-notice", {
+        fetch("https://school-project-shri-krishna-school.onrender.com/upload-notice", {
           method: "POST",
           headers: {
             "Content-type": "application/json",

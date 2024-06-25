@@ -6,7 +6,7 @@ const Blog = () => {
   const [blogs, setBlogs] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3000/all-blog")
+    fetch("https://school-project-shri-krishna-school.onrender.com/all-blog")
       .then(res => res.json())
       .then(data => {
         console.log(data);  // Log the fetched data

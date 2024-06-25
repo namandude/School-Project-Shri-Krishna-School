@@ -42,7 +42,7 @@ const UploadFaculty = () => {
         console.log(facultyObj)
 
         //send data to db
-        fetch("http://localhost:3000/upload-faculty", {
+        fetch("https://school-project-shri-krishna-school.onrender.com/upload-faculty", {
           method: "POST",
           headers: {
             "Content-type": "application/json",

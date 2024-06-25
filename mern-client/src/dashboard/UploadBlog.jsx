@@ -21,7 +21,7 @@ const UploadBlog = () => {
         event.preventDefault();
         console.log(blogData);
 
-        fetch("http://localhost:3000/upload-blog", {
+        fetch("https://school-project-shri-krishna-school.onrender.com/upload-blog", {
             method: "POST",
             headers: {
                 "Content-type": "application/json",

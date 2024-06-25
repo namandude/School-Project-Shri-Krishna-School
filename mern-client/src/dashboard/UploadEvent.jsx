@@ -21,7 +21,7 @@ const UploadEvent = () => {
         console.log(EventObj)
 
         //send data to db
-        fetch("http://localhost:3000/upload-event", {
+        fetch("https://school-project-shri-krishna-school.onrender.com/upload-event", {
           method: "POST",
           headers: {
             "Content-type": "application/json",
