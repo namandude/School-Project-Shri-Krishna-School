@@ -7,10 +7,9 @@ const HomeAbt = () => {
     
 <section class="weare" id="weare">
 
-
-
-<h2 className='text-5xl font-bold text-center mb-10 leading-snug ml-20'>Setting a benchmark in child-friendly education</h2>
-
+<h2 className='text-5xl font-bold text-center mb-10 leading-snug ml-20 sm:text-4xl sm:mb-6 sm:ml-0'>
+  Setting a benchmark in child-friendly education
+</h2>
 
     <div className='mt-16 py-12 bg-teal-100 px-4 lg:px-24'>
       
