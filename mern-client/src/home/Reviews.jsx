@@ -57,9 +57,9 @@ const Reviews = () => {
                
 
                 <div className='mt-5'>
-                    <img src="https://www.billabonghighbhopal.com/achievers/2023-24/Kushal-Israni-Thumb.jpg" alt="" />
-                <h3 className='text-lg font-medium'>scsdcsdc</h3>
-                <p className='text-base'>CEO, ABC Company</p>
+                    <img src="https://scontent.fbho1-4.fna.fbcdn.net/v/t39.30808-6/434149139_933070834936754_8163954356445880134_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_ohc=nsajWS5xnc0Q7kNvgGBDpJN&_nc_ht=scontent.fbho1-4.fna&oh=00_AYB4XTnpb69NNPOExxaVbPYRUCPH-_BsXngmcK6xVaizFQ&oe=668015BA" alt="" />
+                <h3 className='text-lg font-medium'>Academic</h3>
+                <p className='text-base'>Rank Holders</p>
                 </div>
             </div>
         </SwiperSlide>
@@ -68,9 +68,9 @@ const Reviews = () => {
                
 
                 <div className='mt-5'>
-                    <img src="https://www.billabonghighbhopal.com/achievers/2023-24/Poorvi-Verma-Thumb.jpg" alt="" />
-                <h3 className='text-lg font-medium'>Mark Ping</h3>
-                <p className='text-base'>CEO, ABC Company</p>
+                    <img src="https://scontent.fbho1-3.fna.fbcdn.net/v/t39.30808-6/432758385_923248829252288_7965401679146061214_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_ohc=27l-t9qNRMoQ7kNvgEMXvLb&_nc_ht=scontent.fbho1-3.fna&oh=00_AYBI3PsBjdls1QenOHexyPCrH7ob-NszqvQZWoH3msLepg&oe=6680458C" alt="" />
+                <h3 className='text-lg font-medium'>Exhibitions</h3>
+                <p className='text-base'>Science Tech Exploration</p>
                 </div>
             </div>
         </SwiperSlide>
@@ -79,9 +79,9 @@ const Reviews = () => {
                
 
                 <div className='mt-5'>
-                    <img src="https://www.billabonghighbhopal.com/achievers/2023-24/Rohan-Lacchwani-Thumb.jpg" alt="" />
-                <h3 className='text-lg font-medium'>Mark Ping</h3>
-                <p className='text-base'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus voluptates dolor natus.</p>
+                    <img src="https://scontent.fbho1-3.fna.fbcdn.net/v/t39.30808-6/431283188_923249672585537_470305251247149954_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=g_ZgxjfKxyUQ7kNvgFH_djj&_nc_ht=scontent.fbho1-3.fna&oh=00_AYCuAd1Eb4ndk-HEutNmpwMlK7eEW7sRG6iEiaSNo_61Ag&oe=6680309B" alt="" />
+                <h3 className='text-lg font-medium'>Science and Tech</h3>
+                <p className='text-base'>Exploration in Space</p>
                 </div>
             </div>
         </SwiperSlide>
@@ -90,9 +90,9 @@ const Reviews = () => {
                
 
                 <div className='mt-5'>
-                    <img src="https://www.billabonghighbhopal.com/achievers/2023-24/Lakshya-Agarwal-Thumb.jpg" alt="" />
-                <h3 className='text-lg font-medium'>Mark Ping</h3>
-                <p className='text-base'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, alias qui. Iste!</p>
+                    <img src="https://scontent.fbho1-4.fna.fbcdn.net/v/t39.30808-6/387874627_839282850982220_245580338748213734_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=apQ53AjKLrkQ7kNvgHAWp0i&_nc_ht=scontent.fbho1-4.fna&oh=00_AYDu1riqJUgG99ks5bKyB_FIhl-yrpsVoxggwWHCJ6qrlw&oe=6680401B" alt="" />
+                <h3 className='text-lg font-medium'>Education Achievement </h3>
+                <p className='text-base'>School Rank Holder</p>
                 </div>
             </div>
         </SwiperSlide>
@@ -101,9 +101,9 @@ const Reviews = () => {
                
 
                 <div className='mt-5'>
-                    <img src="https://www.billabonghighbhopal.com/achievers/2023-24/Itika-Tiwari-Thumb.jpg" alt="" />
-                <h3 className='text-lg font-medium'>Mark Ping</h3>
-                <p className='text-base'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus debitis harum ipsam?</p>
+                    <img src="https://scontent.fbho1-1.fna.fbcdn.net/v/t39.30808-6/413889314_878462910397547_3469208609001128791_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_ohc=MI_xYPygYnIQ7kNvgFPWL9f&_nc_ht=scontent.fbho1-1.fna&oh=00_AYAm2txF9pLmepul6Xbg1MojujnK3QHAnzx7CPPMITtlLg&oe=668024D6" alt="" />
+                <h3 className='text-lg font-medium'>Trips and Learning</h3>
+                <p className='text-base'>Learn with fun!</p>
                 </div>
             </div>
         </SwiperSlide>
@@ -112,9 +112,9 @@ const Reviews = () => {
                
 
                 <div className='mt-5'>
-                    <img src="https://www.billabonghighbhopal.com/achievers/2023-24/Poster-Making-Thumb.jpg" alt="" />
-                <h3 className='text-lg font-medium'>Mark Ping</h3>
-                <p className='text-base'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque veritatis provident ducimus.</p>
+                    <img src="https://scontent.fbho1-4.fna.fbcdn.net/v/t39.30808-6/345430613_1428585491285231_2930947670283393225_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_ohc=fabyx2QeP_0Q7kNvgGGtOnN&_nc_ht=scontent.fbho1-4.fna&oh=00_AYD7WlKmBOGONY2Zfj5P_eYLsmCPFmp820Dmsavh0QoGgg&oe=6680269E" alt="" />
+                <h3 className='text-lg font-medium'>Talents</h3>
+                <p className='text-base'>Showcasing the best in them. </p>
                 </div>
             </div>
         </SwiperSlide>
