@@ -1,20 +1,20 @@
 const express = require('express');
 const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb');
 const cors = require('cors');
-
+require('dotenv').config()
 const app = express();
-const port = 3000;
+const port = process.env.PORT;
 
 // Middleware
 app.use(cors());
 app.use(express.json());
 
 // MongoDB configuration -> MongoDB connected
-const uri =
-  'mongodb+srv://mern-book-store:Park15hoseok@cluster0.1ab2bzo.mongodb.net/BookInventory?retryWrites=true&w=majority';
+// const uri =
+//   'mongodb+srv://mern-book-store:Park15hoseok@cluster0.1ab2bzo.mongodb.net/BookInventory?retryWrites=true&w=majority';
 
 // Create a MongoClient with a MongoClientOptions object to set the Stable API version
-const client = new MongoClient(uri, {
+const client = new MongoClient(process.env.MONGO_URL, {
   serverApi: {
     version: ServerApiVersion.v1,
     strict: true,
@@ -24,9 +24,6 @@ const client = new MongoClient(uri, {
 
 app.get('/', (req, res) => {
   res.send('Hello !');
-});
-app.get('/ao', (req, res) => {
-  res.send('appsa !');
 });
 
 
