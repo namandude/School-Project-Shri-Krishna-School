@@ -15,7 +15,7 @@ import UploadNotice from "../dashboard/UploadNotice";
 import ManageNotice from "../dashboard/ManageNotice";
 import EditNotice from "../dashboard/EditNotice";
 import Singup from "../components/Singup";
-import Login from "../components/login";
+import Login from "../components/Login";
 import PrivateRoute from "../Privateroute/PrivateRoute";
 import Logout from "../components/Logout";
 import Ourfaculty from "../components/Ourfaculty";
