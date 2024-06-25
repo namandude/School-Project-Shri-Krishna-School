@@ -18,7 +18,8 @@ import { Autoplay } from 'swiper/modules';
 const Reviews = () => {
   return (
     <div className='my-12 px-4 lg:px-24'>
-        <h2 className='text-5xl font-bold text-center mb-10 leading-snug'> Achievements</h2>
+    <h2 className='text-5xl font-bold text-center mb-10 leading-snug sm:text-left'>Achievements</h2>
+
         <p>Our achievers demonstrate that success in the coeval world relies not only on cognizance, but also on imagination, entrepreneurship, and the ability to explore.</p>
         <div>
         

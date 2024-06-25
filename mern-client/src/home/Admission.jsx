@@ -31,9 +31,8 @@ const Admission = () => {
   return (
         
 <section class="weare" id="weare">
-  <br/>
+  <br/><h2 className='text-5xl font-bold text-center mb-10 leading-snug ml-0 sm:ml-20'>Admissions</h2>
 
-<h2 className='text-5xl font-bold text-center mb-10 leading-snug ml-20'>Admissions</h2>
 
     <div className='px-4 lg:px-24 my-20 flex flex-col md:flex-row justify-between items-center gap-12'>
       <div className='md:w-1/2 h-full'>
