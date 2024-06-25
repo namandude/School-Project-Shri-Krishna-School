@@ -23,8 +23,12 @@ const client = new MongoClient(uri, {
 });
 
 app.get('/', (req, res) => {
-  res.send('Hello World!');
+  res.send('Hello !');
 });
+app.get('/ao', (req, res) => {
+  res.send('appsa !');
+});
+
 
 async function run() {
   try {
